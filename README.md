@@ -1,2 +1,2 @@
-# -
+# Compucternie Seti
 Руслану Ринатовичу

@@ -1,0 +1,41 @@
+.striped-table {
+    width: 70%; /* Ширина таблицы: 70% */
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; /* Шрифт: Lucida Sans Unicode */
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Стили заголовка таблицы */
+.striped-table th {
+    background-color: #2a58ea; /* Фон заголовка: #2a58ea */
+    color: #ffffff;            /* Цвета: Текст заголовка - #fff */
+    font-weight: bold;
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 3px solid #6678b1; /* Цвет нижней границы заголовка - #6678b1 */
+}
+
+/* Общие стили для текста ячеек */
+.striped-table td {
+    color: #669; /* Цвет текста ячеек: #669 */
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 2px solid #0be052; /* Цвет нижней границы строк - #0be052 */
+}
+
+/* Чередование цветов строк с помощью :nth-child */
+
+/* Четные строки (2-я, 4-я и т.д.) */
+.striped-table tbody tr:nth-child(even) td {
+    background-color: #e8edff; /* четные - #e8edff */
+}
+
+/* Нечетные строки (1-я, 3-я и т.д.) */
+.striped-table tbody tr:nth-child(odd) td {
+    background-color: #b9c6f7; /* нечетные - #b9c6f7 */
+}
+
+/* Дополнительный стиль: эффект наведения на строку */
+.striped-table tbody tr:hover td {
+    color: #ea2a36; /* color: #ea2a36; */
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.gems-table {
+    border-collapse: collapse;
+    width: 350px;
+    color: black; /* Цвет текста по умолчанию */
+}
+
+/* Оформление шапки таблицы */
+.gems-table thead th {
+    background-color: maroon; /* Темно-красный цвет */
+    color: white; /* Белый текст */
+    padding: 6px 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Оформление тела таблицы */
+.gems-table tbody td {
+    background-color: #fffacd; /* Нежно-желтый/кремовый фон */
+    padding: 6px 12px;
+    text-align: left;
+}
+
+/* Специфичное выравнивание для чисел, если необходимо (на фото они выровнены по левому краю, как и текст) */
+.gems-table tbody td:not(.gem-name) {
+    text-align: left;
+}

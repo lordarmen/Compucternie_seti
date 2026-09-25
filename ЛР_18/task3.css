@@ -1,0 +1,22 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками как на скриншоте */
+    margin: 20px;
+}
+
+.yellow-table {
+    border-collapse: collapse;
+    background-color: #FFFF00; /* Ярко-желтый цвет фона */
+    border: 3px solid #000000; /* Толстая черная внешняя рамка */
+}
+
+.yellow-table th, 
+.yellow-table td {
+    border: 1px solid #000000; /* Тонкие черные внутренние границы */
+    padding: 10px 15px;        /* Отступы внутри ячеек */
+    text-align: left;
+}
+
+.yellow-table th {
+    font-weight: bold;
+}

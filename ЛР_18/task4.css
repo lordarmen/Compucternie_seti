@@ -1,0 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками как на скриншоте */
+    margin: 20px;
+}
+
+.resource-table {
+    border-collapse: separate; /* Раздельные двойные рамки */
+    border-spacing: 2px;       /* Небольшой отступ для эффекта двойной рамки */
+    border: 1px solid #000000; /* Внешняя общая граница таблицы */
+}
+
+.resource-table th, 
+.resource-table td {
+    border: 1px solid #000000; /* Черные внутренние рамки ячеек */
+    padding: 6px 12px;         /* Отступы внутри ячеек */
+    text-align: left;          /* Выравнивание текста по левому краю */
+}
+
+/* Стили для верхней строки заголовков */
+.resource-table thead th {
+    background-color: #D3D3D3; /* Светло-серый фон для шапки */
+    font-weight: bold;
+}
+
+/* Стили для первого столбца с названиями ресурсов */
+.resource-table tbody td:first-child {
+    font-weight: normal;       /* Обычный текст без жирного выделения */
+}

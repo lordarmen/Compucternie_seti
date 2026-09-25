@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.colored-table {
+    border-collapse: collapse; /* Слитные границы */
+    color: #FFFFFF;            /* Белый цвет текста для всей таблицы */
+}
+
+/* Стили для верхней строки (заголовков) */
+.colored-table th {
+    background-color: #800000; /* Темно-красный (бордовый) фон */
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Стили для нижней строки (обычных ячеек) */
+.colored-table td {
+    background-color: #000080; /* Темно-синий фон */
+    padding: 10px 20px;
+    text-align: left;
+}

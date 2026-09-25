@@ -1,0 +1,33 @@
+.employee-table-clean {
+    width: 70%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Шапка таблицы с одной линией снизу */
+.employee-table-clean th {
+    color: #039;
+    font-weight: normal;
+    text-align: left;
+    padding: 12px 8px;
+    border-bottom: 2px solid #6678b1; /* Толстая линия под заголовками */
+}
+
+/* Промежуточные линии между строками */
+.employee-table-clean td {
+    color: #669;
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #c0c8df; /* Более блеклые разделительные линии */
+}
+
+/* Убираем нижнюю линию у самой последней строки как на скриншоте 11 */
+.employee-table-clean tr:last-child td {
+    border-bottom: none;
+}
+
+/* Сохраняем эффект наведения */
+tr:hover td {
+    color: #6699ff;
+}

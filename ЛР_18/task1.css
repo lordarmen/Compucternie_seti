@@ -1,0 +1,45 @@
+/* Общие стили для таблицы */
+.diamonds-table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Стилизация подписи таблицы */
+.diamonds-table caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Оформление шапки таблицы */
+.diamonds-table thead th {
+    background-color: #FF0000; /* Красный цвет из задания */
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: 1px solid #444444;
+}
+
+/* Убираем фон у самой первой пустой ячейки в шапке (опционально, для аккуратности) */
+.diamonds-table thead th:first-child {
+    background-color: transparent;
+    border: none;
+}
+
+/* Стили для боковых ячеек с категориями камней */
+.diamonds-table td.category-cell {
+    background-color: #009999; /* Бирюзовый цвет из задания */
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+/* Стили для ячеек с числовыми данными */
+.diamonds-table tbody td {
+    padding: 8px 20px;
+    border: 1px solid #444444;
+    color: #000000;
+}

@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.spaced-table {
+    border-collapse: separate;
+    border-spacing: 10px; /* Отступы между ячейками */
+    border: 1px solid #000000; /* Внешняя тонкая рамка */
+    width: 90%; /* Растягиваем таблицу по ширине окна */
+    max-width: 600px;
+}
+
+.spaced-table td {
+    border: 1px solid #800000; /* Бордовая рамка ячеек */
+    padding: 10px 15px;
+    text-align: left;
+    background-color: #FFFFFF;
+}

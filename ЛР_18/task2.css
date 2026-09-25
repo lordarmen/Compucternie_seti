@@ -1,0 +1,32 @@
+/* Общие базовые стили для всех таблиц */
+table {
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #A9A9A9; /* Серый цвет границ как на макете */
+    padding: 4px 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Специфичные стили для первой таблицы */
+.table-collapse {
+    border-collapse: collapse; /* Границы сливаются в одну линию */
+}
+
+/* Специфичные стили для второй таблицы */
+.table-separate {
+    border-collapse: separate; /* Границы ячеек разделены двойной рамкой */
+    border-spacing: 2px;       /* Расстояние между ячейками */
+}

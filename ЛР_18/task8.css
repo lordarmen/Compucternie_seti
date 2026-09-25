@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.centered-table {
+    border-collapse: collapse;
+    border: 1px solid #555555;
+    width: 300px;
+}
+
+.centered-table th, 
+.centered-table td {
+    border: 1px solid #555555;
+    padding: 10px;
+    text-align: center; /* Центрирование содержимого */
+}
+
+.centered-table th {
+    background-color: #FFC000; /* Желтый цвет заголовков */
+    font-weight: bold;
+}

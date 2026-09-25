@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.row-header-table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+.row-header-table th, 
+.row-header-table td {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: left;
+}
+
+/* Стилизация первого столбца (заголовков) */
+.row-header-table th {
+    background-color: #FFCC00; /* Желтый фон */
+    font-weight: bold;
+}

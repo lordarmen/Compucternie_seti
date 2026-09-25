@@ -1,0 +1,34 @@
+.employee-table {
+    width: 70%; /* Ширина таблицы */
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; /* Шрифт таблицы */
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Стили заголовков */
+.employee-table th {
+    color: #039; /* Цвет текста заголовка */
+    font-weight: normal;
+    text-align: left;
+    padding: 12px 8px;
+    border-top: 1px solid #6678b1;    /* Внешняя верхняя граница */
+    border-bottom: 2px solid #6678b1; /* Линия под шапкой */
+}
+
+/* Стили ячеек данных */
+.employee-table td {
+    color: #669; /* Цвет текста ячеек */
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #6678b1; /* Внутренние линии */
+}
+
+/* Нижняя рамка всей таблицы */
+.employee-table tr:last-child td {
+    border-bottom: 1px solid #6678b1;
+}
+
+/* Эффект наведения из условия задания */
+tr:hover td {
+    color: #6699ff;
+}
